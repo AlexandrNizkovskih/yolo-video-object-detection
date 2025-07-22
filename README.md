@@ -19,3 +19,12 @@
 - NumPy
 
 ---
+
+## Запуск
+
+```bash
+pip install -r requirements.txt
+python video_detection.py
+```
+
+Файл `video_detection.py` содержит полный скрипт для подготовки датасета VisDrone, конвертации аннотаций в формат YOLO, создания видео и сравнения нескольких версий модели YOLO.
